@@ -1,0 +1,12 @@
+# Archivos de estado (Contienen info sensible de tu red)
+*.tfstate
+*.tfstate.backup
+
+# Directorio de trabajo (Pesa mucho y se genera con init)
+.terraform/
+
+# Archivo de bloqueo de versiones
+.terraform.lock.hcl
+
+# Variables con credenciales (Si llegas a usarlas)
+*.tfvars
